@@ -1,7 +1,7 @@
 # PRODUCT REQUIREMENT DOCUMENT (PRD)
 **Fitur:** Multi-Selection & Checkout Menu Pembayaran Info KHS UMM  
 **Nama:** Mochammad Eriza Anwar  
-**Tanggal Analisis:** 9 November 2026  
+**Tanggal Analisis:** 22 November 2026  
 
 ---
 

@@ -69,6 +69,9 @@ Desain antarmuka portal pembayaran bank pihak ketiga (*Payment Gateway*, *Virtua
 * **AC-02:** Pengguna tidak dapat mengklik, mengedit, atau menghapus angka nominal pada tagihan aktif.
 * **AC-03:** Baris tagihan dengan kekurangan Rp0 dipastikan tidak memiliki elemen interaktif (*checkbox*/tombol bayar) yang aktif.
 * **AC-04:** Layar konfirmasi akhir sukses menampilkan rincian Nama, NIM, dan daftar tagihan secara akurat sebelum pengguna menekan tombol lanjut ke bank.
+* **AC-05:** Seluruh label jenis biaya (seperti "UTS", "UAS", dan "HER") ditampilkan utuh tanpa terpotong pada tabel, panel ringkasan, maupun modal konfirmasi.
+* **AC-06:** Panel ringkasan pembayaran tetap mengambang (*sticky*) di bagian bawah layar sehingga total tagihan selalu terlihat saat tabel di-*scroll*.
+* **AC-07:** Tombol "Lanjut Konfirmasi" otomatis nonaktif (*disabled*) saat belum ada tagihan yang dicentang (total Rp0), dan tombol "Lanjut ke Portal Bank" terkunci sebelum kotak validasi identitas dicentang.
 
 ---
 

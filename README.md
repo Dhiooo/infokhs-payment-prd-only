@@ -1,7 +1,9 @@
 # PRODUCT REQUIREMENT DOCUMENT (PRD)
-**Fitur:** Multi-Selection & Checkout Menu Pembayaran Info KHS UMM  
-**Nama:** Mochammad Eriza Anwar  
+**Proyek:** Multi-Selection & Checkout Menu Pembayaran Info KHS UMM (Versi PRD Only)  
+**Nama Mahasiswa:** Mochammad Eriza Anwar  
+**NIM:** 202310370311197  
 **Tanggal Analisis:** 9 November 2026  
+**Live Deployment (GitHub Pages):** [https://dhiooo.github.io/infokhs-payment-prd-only/](https://dhiooo.github.io/infokhs-payment-prd-only/)
 
 ---
 
@@ -66,3 +68,14 @@ Desain antarmuka portal pembayaran bank pihak ketiga (*Payment Gateway*, *Virtua
 * **AC-02:** Pengguna tidak dapat mengklik, mengedit, atau menghapus angka nominal pada tagihan aktif.
 * **AC-03:** Baris tagihan dengan kekurangan Rp0 dipastikan tidak memiliki elemen interaktif (*checkbox*/tombol bayar) yang aktif.
 * **AC-04:** Layar konfirmasi akhir sukses menampilkan rincian Nama, NIM, dan daftar tagihan secara akurat sebelum pengguna menekan tombol lanjut ke bank.
+
+---
+
+## 10. ARSITEKTUR KODE & CARA MENJALANKAN
+* `index.html` — Struktur halaman utama dan modal konfirmasi.
+* `css/styles.css` — Konfigurasi gaya kustom dan *state* visual elemen terkunci.
+* `js/data/mockBillingData.js` — Data simulasi tagihan semester mahasiswa UMM.
+* `js/utils/formatter.js` — Fungsi pemformatan mata uang IDR dan simulasi pengambilan data.
+* `js/components/` — Modul komponen antarmuka (`billingTable.js`, `summaryBar.js`, `confirmModal.js`).
+* `js/app.js` — Pengelola *state* aplikasi dan *event listeners*.
+* `docs/ACCEPTANCE_TEST.md` — Checklist hasil pengujian *Acceptance Criteria*.

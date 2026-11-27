@@ -2,6 +2,10 @@
 
 Semua perubahan penting pada prototipe **Menu Pembayaran Info KHS (Versi PRD Only)** didokumentasikan di file ini.
 
+## [1.3.1] - 2026-11-27
+### Added
+- Menambahkan tautan *live deployment* produksi pada server Vercel (`https://infokhs-payment-prd-only-fylu.vercel.app/`) di `README.md`.
+
 ## [1.3.0] - 2026-11-27
 ### Changed
 - Memindahkan seluruh dokumen PRD ke dalam `README.md` utama repository sesuai ketentuan pengumpulan.

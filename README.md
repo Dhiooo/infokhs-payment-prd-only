@@ -2,7 +2,7 @@
 **Proyek:** Multi-Selection & Checkout Menu Pembayaran Info KHS UMM (Versi PRD Only)  
 **Nama Mahasiswa:** Mochammad Eriza Anwar  
 **NIM:** 202310370311197  
-**Tanggal Analisis:** 9 November 2026  
+**Tanggal Analisis:** 27 November 2026  
 **Live Deployment (Vercel):** [https://infokhs-payment-prd-only-fylu.vercel.app/](https://infokhs-payment-prd-only-fylu.vercel.app/)  
 **Live Deployment (GitHub Pages):** [https://dhiooo.github.io/infokhs-payment-prd-only/](https://dhiooo.github.io/infokhs-payment-prd-only/)
 
